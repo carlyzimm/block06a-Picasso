@@ -1,55 +1,31 @@
-body {
-    margin: 0;
-    background-color: burlywood;
-}
-
-h2 {
-    margin: 0 auto;
-    width: fit-content;
-}
-.example {
-    width: 80%;
-    height: 200px;
-    margin: 0 auto;
-    border: 3px solid purple;
-    background-color: pink;
-    position: relative;
-    overflow: scroll; 
-}
-
-.circle {
-    width: 75px; 
-    height: 75px; 
-    border-radius: 50%
-}
-
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.box {
-    width: 10%;
-    Height: 150px;
+.square {
+  width: 30vw;
+  height: 15vh;
+  background-color: teal;
+  padding: 1em;
 }
 
 .flexbox {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.grid-box {
-    background-color: aquamarine;
-    border: 1px solid red;
+
+.rectangle {
+  width: 100%;
+  height: 30rem;
+  background-color: teal;
+  padding: 1em;
+  margin-top: 30px;
+}
+
+.flexboxtwo {
+  display: flex;
+  flex-wrap: wrapß;
+}
+
+.line {
+  width: 100%;
+  height: 2rem;
+  background-color: lightgreen;
+  margin-top: 20px;
 }
